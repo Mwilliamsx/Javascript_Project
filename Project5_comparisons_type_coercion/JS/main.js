@@ -24,6 +24,7 @@ document.write(8 > 2 && 16 > 4);
 
 // '||' (or) either logic between values or variables may be true//
 document.write(6 > 10 || 10 > 4);
+document.write(8 < 4 || 7 < 16 ); 
 
 function not_Function() {
     document.getElementById("Not").innerHTML = !(20 > 10);
