@@ -4,8 +4,19 @@ function my_Dictionary() {
         Color:"Black",
         Breed:"Bully",
         Age:1,
-        Sound:"Bark!", // The output of our code would be: Bark!//
+        Sound:"Bark!",
+    };
+    document.getElementById("Dictionary").innerHTML = animal.Sound; // The output would be Bark!//
+}
+
+function my_Dictionary2() {
+    var animal = {
+        Species:"Dog",
+        Color:"Black",
+        Breed:"Bully",
+        Age:1,
+        Sound:"Bark!",
     };
     delete animal.Sound;  // The output of this code would be: “undefined” since the value no longer exists in our “dictionary.”//
-    document.getElementById("Dictionary").innerHTML = animal.Sound;
+    document.getElementById("Dictionary1").innerHTML = animal.Sound; // The output would be Bark!//
 }
