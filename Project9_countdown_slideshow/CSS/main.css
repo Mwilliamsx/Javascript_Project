@@ -1,7 +1,13 @@
 * {box-sizing:border-box}
 
+img {
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+}
+
 /* Slideshow Container */
-.slideshow_container {
+.slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -13,7 +19,7 @@
 }
 
 /* Next and Previous Button */
-.prev, .next {
+.prev,.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
