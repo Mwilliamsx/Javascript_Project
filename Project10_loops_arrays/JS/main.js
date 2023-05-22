@@ -37,3 +37,11 @@ let car = {
     }
 };
 document.getElementById("car_Object").innerHTML = car.description();
+
+function constant_Function() {
+    const musical_Instrument = {type:"guitar", brand:"Fender", color:"black"};
+    musical_Instrument.color = "blue";
+    musical_Instrument.price = "$900";
+    document.getElementById("constant").innerHTML = "The cost of the " +
+    musical_Instrument.type + " was " + musical_Instrument.price;
+}
