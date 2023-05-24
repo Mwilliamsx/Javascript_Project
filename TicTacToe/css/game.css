@@ -26,6 +26,7 @@ td{
     filter: contrast(3);
 }
 
+
 canvas {
     position: absolute; /* This property sets the position of our canvas to the top left corner of our container. */
     z-index: 10;     /*This property places our canvas over the top of our table. */

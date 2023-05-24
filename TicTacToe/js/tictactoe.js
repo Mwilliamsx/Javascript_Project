@@ -104,7 +104,13 @@ function placeXorO(squareNumber) {     // This function is for placeing an X or 
                 if (x < x2) { x += 10;}   //This condition adds 10 to the previous end x endpoint.//
                 if (y < y2) { y += 10;}  //This condition adds 10 to the previous end y endpoint.//
                 if (x >= x2 && y >= y2) { cancelAnimationFrame(animationLoop); }
-            }  
+            } 
+            
+            if (x1 <= x2 && y1 >= y2) {
+                if (x < x2) {x += 10; }
+                if (y > y2) {y -= 10; }
+                if (x >= x2 && y <= y2) {cancelAnimationFrame(animationLoop);}
+            }
 
         }
 
